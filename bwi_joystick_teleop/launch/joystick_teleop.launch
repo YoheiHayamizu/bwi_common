@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="mapping" default="xbox"/>
+  <arg name="mapping" default="ps4"/>
 
   <node name="joy_node" pkg="joy" type="joy_node" />
   <node name="joystick_teleop_node" pkg="bwi_joystick_teleop" type="joystick_teleop_node" output="screen">
