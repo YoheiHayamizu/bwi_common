@@ -166,6 +166,14 @@ int main(int argc, char **argv)
     MAX_SPEED_AXIS = 7;    // Dpad up/down
     BRAKE_BUTTON = 2;      // O (circle) button
   }
+  else if("logitech" == mapping)
+  {
+    SPEED_AXIS = 1;        // left stick up/down
+    TURN_AXIS = 2;         // left stick left/right
+    MAX_TURN_AXIS = 4;     // Dpad left/right
+    MAX_SPEED_AXIS = 5;    // Dpad up/down
+    BRAKE_BUTTON = 2;      // O (circle) button
+  }
   else
   {
     ROS_ERROR_STREAM("Unknown ~mapping \"" << mapping << "\". Keeping default.");
@@ -192,8 +200,8 @@ int main(int argc, char **argv)
     {
       if(firstZeroVel == true || publishAnyway == true) //Check if its the first (or close to) or if we have the e-stop override
       {
-	pub.publish(msg);
-	firstZeroVel = false;
+        pub.publish(msg);
+        firstZeroVel = false;
       }
     }
     else
