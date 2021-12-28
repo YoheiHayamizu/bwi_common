@@ -1,0 +1,30 @@
+<package format="2">
+  <name>utexas_gdc</name>
+  <version>0.4.0</version>
+  <description>
+    Building maps for the engineering building of 
+    the University of New York at Binghamton.
+  </description>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/YoheiHayamizu/bwi_common</url>
+  <url type="bugtracker">https://github.com/YoheiHayamizu/bwi_common/issues</url>
+
+  <author>Yohei Hayamizu</author>
+  <maintainer email="hayamizu0111@gmail.com">YoheiHayamizu</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>bwi_gazebo_entities</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>bwi_planning_common</exec_depend>
+
+  <test_depend>roslaunch</test_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+  </export>
+
+</package>

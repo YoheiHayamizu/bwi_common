@@ -1,0 +1,13 @@
+maps:
+  1stFloor:
+    yaml: package://bu_eb/maps/1/eb_1st_floor_map.yaml
+    origin: [0, 0, 0, 0, 0, 0]
+    data_directory: package://bu_eb/maps/1
+  2ndFloor:
+    yaml: package://bu_eb/maps/2/eb_2nd_floor_map.yaml
+    origin: [0, 0, 3, 0, 0, 0]
+    data_directory: package://bu_eb/maps/2
+  3rdFloor:
+    yaml: package://bu_eb/maps/3/eb_3rd_floor_map.yaml
+    origin: [0, 0, 5, 0, 0, 0]
+    data_directory: package://bu_eb/maps/3
