@@ -93,6 +93,9 @@ install(TARGETS bwikractions
 
 install(TARGETS
           asp_formatter
-          plan_executor_node
+          knowledge_reasoning_node
+          learning_executor_node
+          single_plan_executor_node
+          state_tracker
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 

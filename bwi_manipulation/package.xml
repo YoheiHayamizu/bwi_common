@@ -14,7 +14,7 @@
 
     <depend>actionlib</depend>
     <depend>actionlib_msgs</depend>
-    <depend>agile_grasp</depend>
+    <!-- <depend>agile_grasp</depend> -->
     <depend>bwi_moveit_utils</depend>
     <depend>bwi_perception</depend>
     <depend>eigen_conversions</depend>
