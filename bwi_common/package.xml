@@ -38,6 +38,7 @@
   <exec_depend>multi_level_map_utils</exec_depend>
   <exec_depend>stop_base</exec_depend>
   <exec_depend>utexas_gdc</exec_depend>
+  <exec_depend>bu_eb</exec_depend>
 
   <export>
     <metapackage/>

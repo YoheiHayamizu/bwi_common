@@ -37,5 +37,6 @@
   <depend>tf</depend>
 
   <exec_depend>utexas_gdc</exec_depend>
+  <exec_depend>bu_eb</exec_depend>
 
 </package>
