@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(catkin QUIET COMPONENTS
         actionlib
         actionlib_msgs
-        agile_grasp
+        # agile_grasp
         bwi_perception
         geometry_msgs
         pcl_ros
