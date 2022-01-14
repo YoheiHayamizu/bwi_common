@@ -1,0 +1,3 @@
+<launch>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find bu_eb)/maps/3/eb_3rd_floor_map.yaml" />
+</launch>
